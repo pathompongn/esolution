@@ -1,0 +1,50 @@
+{
+    "caseId": "${CASE_ID}",
+    "selectedLanguage": "th",
+    "customerInfo": {
+        "personalInfos": [
+            {
+                "cardInfo": ${CARD_INFO},
+                "cifForm": {
+                    "cbsInfo": ${CBS_INFO},
+                    "customerConsent": ${CUSTOMER_CONSENT},
+                    "liveImageSuccess": "Y",
+                    "facialConsent": "Y",
+                    "fatcaInfo": null,
+                    "cbsInfoChanges": [
+                        {
+                            "field": "mobilePhone",
+                            "newValue": "${OTP_Tel}",
+                            "oldValue": "${PHONT_OLD}"
+                        },
+                        {
+                            "field": "emailAddr",
+                            "newValue": "${Email}",
+                            "oldValue": "${EMAIL_OLD}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "productInfo": ${PRODUCT_INFO},
+    "customerAcceptConsent": false,
+    "documentInfo": {
+        "documents": [
+            {
+                "documentId": "SELFIE",
+                "uploadSessionId": "598c039d-a981-4793-b644-c23d2ade81d1"
+            }
+        ]
+    },
+    "opportunityLogRefNo": "${OPPORTUNITY_LOG_REFNO}-1",
+    "additionalInfo": ${ADD_INFO},
+    "flow": "insurance",
+    "subFlow": "",
+    "needPrintedDocument": false,
+    "sendCusEmailDocument": false,
+    "portfolioInfo": {
+        "mortgageRetentions": ${RETENTION},
+        "fnaInfo": null
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "caseId": "${CASE_ID}",
+    "selectedLanguage": "th",
+    "customerInfo": {
+        "personalInfos": [
+            {
+                "cardInfo": {
+                    "engTitle": "${MOCK_EngTitle}",
+                    "engFirstName": "${MOCK_EngFirstName}",
+                    "engMiddleName": "",
+                    "engLastName": "${MOCK_EengLastName}",
+                    "thaiTitle": "${MOCK_ThaiTitle}",
+                    "thaiFirstName": "${MOCK_ThaiFirstName}",
+                    "thaiMiddleName": "",
+                    "thaiLastName": "${MOCK_ThaiLastName}",
+                    "address": {
+                        "homeNo": "${MOCK_Address_HomeNo}",
+                        "soi": "${MOCK_Address_Soi}",
+                        "trok": "",
+                        "moo": "",
+                        "road": "${MOCK_Address_Road}",
+                        "subDistrict": "${MOCK_Address_SubDistrict}",
+                        "district": "${MOCK_Address_District}",
+                        "province": "กรุงเทพมหานคร",
+                        "postalCode": "10200"
+                    },
+                    "cardType": "Citizen ID",
+                    "cardNumber": "${MOCK_CardNumber}",
+                    "cardExpiryDate": "${MOCK_CardExpiryDate}",
+                    "cardIssueDate": "${MOCK_CardIssueDate}",
+                    "cardIssuePlace": "${MOCK_CardIssuePlace}",
+                    "sex": "${MOCK_Sex}",
+                    "dateOfBirth": "${MOCK_DateOfBirth}",
+                    "bp1No": "${MOCK_Bp1No}",
+                    "chipId": "${MOCK_ChipId}",
+                    "manualKeyIn": false,
+                    "customerType": "221",
+                    "foreigner": false,
+                    "isInvolvingPoliticiansFR": "2",
+                    "isInvolvingPoliticiansTH": "2"
+                    },
+                "cifForm": {
+                    "cbsInfo": ${cbsInfo},
+                    "customerConsent": ${customerConsent},
+                    "facialConsent": "N",
+                    "fatcaInfo": null,
+                    "cbsInfoChanges": [
+                        {
+                            "field": "mobilePhone",
+                            "newValue": "${OTP_Tel}",
+                            "oldValue": "${OLD_MOBILE_PHONE}"
+                        },
+                        {
+                            "field": "emailAddr",
+                            "newValue": "${Email}",
+                            "oldValue": "${OLD_EMAIL}"
+                        }
+                    ]
+                },
+                "crsForm": {
+                    "crsInfo": {
+                        "firstName": "${MOCK_EngFirstName}",
+                        "lastName": "${MOCK_EengLastName}",
+                        "cityOfBirth": "BK",
+                        "countryCodeOfBirth": "AX",
+                        "suiteIdentifier": "2",
+                        "floorIdentifier": "s",
+                        "buildingIdentifier": "s",
+                        "street": "s",
+                        "countryCode": "AX",
+                        "city": "xxx",
+                        "countryOfTaxResidences": [
+                            {
+                                "crsCountryFlag": "N",
+                                "resCountryCode": "TH",
+                                "tin": "655"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "productInfo": {
+        "travelCards": [],
+        "debitCards": [],
+        "deposits": [],
+        "cardMaintenances": [],
+        "promptpayMaintenance": [],
+        "tempCards": [],
+        "promptpayGroups": null,
+        "emoneys": [],
+        "accountMaintenances": [],
+        "mutualFundAccount": null,
+        "hnwDeclaration": null,
+        "insuranceTransactions": [],
+        "newNext": null,
+        "upLift": null,
+        "statementRequests": []
+    },
+    "customerAcceptConsent": true,
+    "documentInfo": {
+        "documents": [
+            {
+                "documentId": "PHOTO",
+                "uploadSessionId": "${Photo_uploadSessionId}"
+            }
+        ]
+    },
+    "opportunityLogRefNo": "${opportunityLogRefNo}",
+    "additionalInfo": {
+        "sellerFirstName": "กรุงไทย_UAT_470099",
+        "sellerId": "${User_ID}",
+        "sellerLastName": "รักชุมชน_UAT_470099",
+        "sellerPosition": "หัวหน้าส่วนผู้ช่วยผู้จัดการที่ปรึกษาธุรกิจ"
+    },
+    "flow": "deposit",
+    "subFlow": "",
+    "needPrintedDocument": false,
+    "sendCusEmailDocument": false,
+    "portfolioInfo": {
+        "mortgageRetentions": [],
+        "fnaInfo": null
+    },
+    "vcInfo": ${vcInfo}
+}

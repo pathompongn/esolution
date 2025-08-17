@@ -1,0 +1,25 @@
+[
+    {
+        "accountId": "${Fund_account}",
+        "amount": "${sell_amount}",
+        "appId": "${APP_ID}",
+        "displayedAccountID": "<b>KTAM+บลจ.ชั้นนำอื่นๆ:</b> ${Fund_account}, <b>KTAM UHMF: </b>0000-4-11409-4",
+        "displayedReceivingAccountNumber": "<b>Savings account:</b> ${ACCOUNT_NO}",
+        "mutualFundDetail": ${mutualFundDetail},
+        "productCode": "${fundCode}",
+        "receivingAccountNumber": "${ACCOUNT_NO}",
+        "redemptionOption": "${sell_type}",
+        "transactionDetail": {
+            "allotmentDate": "${allotmentDate}",
+            "effectiveDate": "${effectiveDate}",
+            "estimatedRemainingAmount": ${estimatedRemainingAmount},
+            "estimatedRemainingUnit": ${estimatedRemainingUnit},
+            "fundHoliday": ${holidayThisMonth},
+            "isFirstSubscription": false,
+            "receivingDate": "${receivingDate}"
+        },
+        "transactionType": "REDEMPTION",
+        "unit": null,
+        "unitHolderId": "${unitholderId}"
+    }
+]

@@ -1,0 +1,184 @@
+{
+    "riskAnswers": [
+      {
+        "question": "riskScore1",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore2",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore3",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore4",
+        "answer": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore5",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore6",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore7",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore8",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore9",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      },
+      {
+        "question": "riskScore10",
+        "answer": [
+          4
+        ],
+        "highestScore": 4
+      }
+    ],
+    "riskFlags": [
+      {
+        "question": "riskFlag1",
+        "answer": True
+      },
+      {
+        "question": "riskFlag2",
+        "answer": True
+      }
+    ],
+    "riskCalculation": {
+      "investorLevel": 8,
+      "riskLevelDesc": 0,
+      "riskLevel": "1-8",
+      "riskAnswers": [
+        {
+          "question": "riskScore1",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore2",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore3",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore4",
+          "answer": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore5",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore6",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore7",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore8",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore9",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        },
+        {
+          "question": "riskScore10",
+          "answer": [
+            4
+          ],
+          "highestScore": 4
+        }
+      ],
+      "riskFlags": [
+        {
+          "question": "riskFlag1",
+          "answer": True
+        },
+        {
+          "question": "riskFlag2",
+          "answer": True
+        }
+      ],
+      "totalRiskScore": 40,
+      "basicAsset": 5,
+      "investorTypeDescTh": "แสดงว่าท่านเป็นนักลงทุนประเภท เสี่ยงสูงมาก หมายความว่า ท่านต้องการได้รับโอกาสที่จะได้รับผลตอบแทนสูง ความเสี่ยงสูงและยอมรับการขาดทุนได้ใน significant portion",
+      "investorTypeDescEn": "Investor is a Very High Risk type.  Requiring a higher opportunity to acquire a higher return and higher risk exposure, and capable to accept a significant portion of potential loss.",
+      "updated": True,
+      "suitabilityTest": False
+    },
+    "confirmed": True
+  }

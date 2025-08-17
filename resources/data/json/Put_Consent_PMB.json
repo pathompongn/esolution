@@ -1,0 +1,171 @@
+{
+  "caseId": "${CASE_ID}",
+  "selectedLanguage": "th",
+  "customerInfo": {
+    "personalInfos": [
+            {
+              "cardInfo": {
+              "address": ${MOCK_Address},
+              "bp1No": "JT0000000000",
+              "cardExpiryDate": "${MOCK_CardExpiryDate}",
+              "cardIssueDate": "${MOCK_CardIssueDate}",
+              "cardIssuePlace": "${MOCK_CardIssuePlace}",
+              "cardNumber": "${MOCK_CardNumber}",
+              "cardType": "Citizen ID",
+              "chipId": "${MOCK_ChipId}",
+              "customerType": "221",
+              "dateOfBirth": "${MOCK_DateOfBirth}",
+              "engFirstName": "${MOCK_EngFirstName}",
+              "engLastName": "${MOCK_EengLastName}",
+              "engMiddleName": "",
+              "engTitle": "${MOCK_EngTitle}",
+              "foreigner": false,
+              "manualKeyIn": false,
+              "sex": "M",
+              "thaiFirstName": "${MOCK_ThaiFirstName}",
+              "thaiLastName": "${MOCK_ThaiLastName}",
+              "thaiMiddleName": "",
+              "thaiTitle": "${MOCK_ThaiTitle}"
+          },
+          "cifForm": {
+          "cbsInfo": ${cbsInfo},
+          "customerConsent": {
+            "referenceId": "${MOCK_CardNumber}",
+            "referenceIdType": "CN",
+            "issuingCountry": "TH",
+            "cifNumber": "${CUSTOMER_CIF}",
+            "consents": [
+              {
+                "consentId": "100101",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              },
+              {
+                "consentId": "100102",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              },
+              {
+                "consentId": "100103",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              }
+            ]
+          },
+          "facialConsent": "N",
+          "fatcaInfo": null,
+          "cbsInfoChanges": [
+            {
+                "field": "mobilePhone",
+                "newValue": "${OTP_Tel}",
+                "oldValue": "${OLD_MOBILE_PHONE}"
+            },
+            {
+                "field": "emailAddr",
+                "newValue": "${Email}",
+                "oldValue": "${OLD_EMAIL}"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "productInfo": {
+    "travelCards": [],
+    "debitCards": [],
+    "deposits": [],
+    "cardMaintenances": [],
+    "promptpayMaintenance": [],
+    "tempCards": [],
+    "promptpayGroups": null,
+    "emoneys": [],
+    "accountMaintenances": [],
+    "mutualFundAccount": null,
+    "pmbTransactions": [
+      {
+        "productId": "${ProductID}",
+        "productCode": "${ProductCode}",
+        "productName": "หุ้นกู้",
+        "productTypeId": "${ProductTypeId}",
+        "productTypeCode": "${ProductTypeCode}",
+        "productBusinessCode": "${productBusinessCode}",
+        "stockInfo": ${data_for_retrieve},
+        "amount": "${minAmount}",
+        "unit": ${minUnit},
+        "paymentMethod": "TRANSFER",
+        "receivingMethod": "SEC_ACCT",
+        "sourceOfMoneyCode": "1",
+        "paymentAccountNumber": "${ACCOUNT_NO}",
+        "brokerCode": "002",
+        "sourceOfMoneyDesc": "เงินเดือน",
+        "securityAccount": "${ACCOUNT_NO}",
+        "receiveInterestAccounts": [
+          {
+            "receiveInterestAccount": "${ACCOUNT_NO}",
+            "receiveInterestAccountName": "",
+            "receiveInterestBankCd": "006",
+            "receiveInterestCurrency": "THB"
+          }
+        ],
+        "appId": "${APP_ID}"
+      }
+    ],
+    "hnwDeclaration": null,
+    "insuranceTransactions": [],
+    "newNext": null,
+    "upLift": null,
+    "statementRequests": []
+  },
+  "customerAcceptConsent": true,
+  "documentInfo": {
+    "documents": [
+        {
+            "documentId": "PHOTO",
+            "uploadSessionId": "${Photo_uploadSessionId}"
+        }
+    ]
+  },
+  "opportunityLogRefNo": "${opportunityLogRefNo}",
+  "additionalInfo": {
+    "sellerFirstName": "${FirstNameEmployee}",
+    "sellerLastName": "${LastNameEmployee}",
+    "sellerPosition": "${POSITION}",
+    "sellerId": "${User_ID}"
+  },
+  "flow": "${flow}",
+  "subFlow": "",
+  "needPrintedDocument": false,
+  "sendCusEmailDocument": false,
+  "portfolioInfo": {
+    "mortgageRetentions": ${RETENTION},
+    "fnaInfo": null
+  },
+  "vcInfo": ${vcInfo}
+}

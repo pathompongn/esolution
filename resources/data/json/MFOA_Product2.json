@@ -1,0 +1,62 @@
+
+            {
+                "productName": "${fundNameEn2}",
+                "productCode": "${fundCode2}",
+                "productId": "${ProductID}",
+                "productTypeId": "${ProductTypeId}",
+                "productTypeCode": "${ProductTypeCode}",
+                "productBusinessCode": "Order MFOA ",
+                "accountId": "${Fund_account}",
+                "authorizeSigners": [
+                    {
+                        "cardType": "01",
+                        "cardNumber": "${MOCK_CardNumber}",
+                        "engTitle": "${MOCK_EngTitle}",
+                        "engFirstName": "${MOCK_EngFirstName}",
+                        "engLastName": "${MOCK_EengLastName}",
+                        "engMiddleName": "",
+                        "thaiTitle": "${MOCK_ThaiTitle}",
+                        "thaiFirstName": "${MOCK_ThaiFirstName}",
+                        "thaiMiddleName": "",
+                        "thaiLastName": "${MOCK_ThaiLastName}"
+                    }
+                ],
+                "transactionDetail": {
+                    "fundTradeCalendar": null,
+                    "fundHoliday": ${holidayThisMonth2},
+                    "allotmentDate": "${allotmentDate2}",
+                    "effectiveDate": "${effectiveDate2}",
+                    "nextFundHoliday": ${holidayNextMonth2},
+                    "estimatedRemainingAmount": ${estimatedRemainingAmount2},
+                    "estimatedRemainingUnit": ${estimatedRemainingUnit2},
+                    "isFirstSubscription": false,
+                    "isRequiredAccreditedInvestorRiskConsent": false,
+                    "isRequiredComplexFundConsent": false,
+                    "isRequiredConcentrationRiskConsent": false,
+                    "isRequiredExchangeRateConsent": true,
+                    "isRequiredForeignRiskConsent": true,
+                    "isRequiredOverRiskConsent": true,
+                    "isRequiredTaxDeductibleConsent": true
+                },
+                "mutualFundDetail": ${mutualFundDetail2},
+                "appId": "${APP_ID2}",
+                "paymentInfo": {
+                    "cardNo": null,
+                    "merchantID": null
+                },
+                "transactionType": "SUBSCRIPTION",
+                "referCode": "${User_ID}",
+                "referBranchCode": "${branchCode}",
+                "amount": ${minFirstSubAmount2},
+                "paymentMethod": "ATS",
+                "unitHolderId": "${unitholderId2}",
+                "paymentAccountNumber": "${ACCOUNT_NO}",
+                "passbookBalance": 0,
+                "passbookSerialNumber": "1",
+                "signatureConsent": true,
+                "taxFundConsent": true,
+                "validateTradeAndFundHolidayResult": {
+                    "isCutOfTime": true
+                }
+            }
+        

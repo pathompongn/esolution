@@ -1,0 +1,169 @@
+{
+    "caseId": "${CASE_ID}",
+    "selectedLanguage": "th",
+    "customerInfo": {
+        "personalInfos": [
+            {
+                "cardInfo": {
+                    "engTitle": "${MOCK_EngTitle}",
+                    "engFirstName": "${MOCK_EngFirstName}",
+                    "engMiddleName": "",
+                    "engLastName": "${MOCK_EengLastName}",
+                    "thaiTitle": "${MOCK_ThaiTitle}",
+                    "thaiFirstName": "${MOCK_ThaiFirstName}",
+                    "thaiMiddleName": "",
+                    "thaiLastName": "${MOCK_ThaiLastName}",
+                    "address": {
+                        "homeNo": "${MOCK_Address_HomeNo}",
+                        "soi": "${MOCK_Address_Soi}",
+                        "trok": "",
+                        "moo": "",
+                        "road": "${MOCK_Address_Road}",
+                        "subDistrict": "${MOCK_Address_SubDistrict}",
+                        "district": "${MOCK_Address_District}",
+                        "province": "กรุงเทพมหานคร",
+                        "postalCode": "10200"
+                    },
+                    "cardType": "Citizen ID",
+                    "cardNumber": "${MOCK_CardNumber}",
+                    "cardExpiryDate": "${MOCK_CardExpiryDate}",
+                    "cardIssueDate": "${MOCK_CardIssueDate}",
+                    "cardIssuePlace": "${MOCK_CardIssuePlace}",
+                    "sex": "${MOCK_Sex}",
+                    "dateOfBirth": "${MOCK_DateOfBirth}",
+                    "bp1No": "${MOCK_Bp1No}",
+                    "chipId": "${MOCK_ChipId}",
+                    "manualKeyIn": false,
+                    "customerType": "221",
+                    "foreigner": false,
+                    "isInvolvingPoliticiansFR": "2",
+                    "isInvolvingPoliticiansTH": "2"
+                    },
+                "cifForm": {
+                    "cbsInfo": ${cbsInfo},
+                    "customerConsent": ${customerConsent},
+                    "mutualFundConsent": ${mutualFundConsent},
+                    "facialConsent": "N",
+                    "fatcaInfo": null,
+                    "cbsInfoChanges": [
+                        {
+                            "field": "mobilePhone",
+                            "newValue": "${OTP_Tel}",
+                            "oldValue": "${OLD_MOBILE_PHONE}"
+                        },
+                        {
+                            "field": "emailAddr",
+                            "newValue": "${Email}",
+                            "oldValue": "${OLD_EMAIL}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "productInfo": {
+        "travelCards": [],
+        "debitCards": [],
+        "deposits": [],
+        "cardMaintenances": [],
+        "promptpayMaintenance": [],
+        "tempCards": [],
+        "promptpayGroups": null,
+        "emoneys": [],
+        "accountMaintenances": [],
+        "mutualFundAccount": null,
+        "insuranceTransactions": [],
+        "newNext": null,
+        "upLift": null,
+        "statementRequests": [],
+        "kcifInfo": ${json_kcifInfo},
+        "mutualFundTransactions": [
+            {
+                "productName": "${fundNameEn}",
+                "productCode": "${fundCode}",
+                "productId": "${ProductID}",
+                "productTypeId": "${ProductTypeId}",
+                "productTypeCode": "${ProductTypeCode}",
+                "productBusinessCode": "Order MFOA ",
+                "accountId": "${Fund_account}",
+                "authorizeSigners": [
+                    {
+                        "cardType": "01",
+                        "cardNumber": "${MOCK_CardNumber}",
+                        "engTitle": "${MOCK_EngTitle}",
+                        "engFirstName": "${MOCK_EngFirstName}",
+                        "engLastName": "${MOCK_EengLastName}",
+                        "engMiddleName": "",
+                        "thaiTitle": "${MOCK_ThaiTitle}",
+                        "thaiFirstName": "${MOCK_ThaiFirstName}",
+                        "thaiMiddleName": "",
+                        "thaiLastName": "${MOCK_ThaiLastName}"
+                    }
+                ],
+                "transactionDetail": {
+                    "fundTradeCalendar": null,
+                    "fundHoliday": ${holidayThisMonth},
+                    "allotmentDate": "${allotmentDate}",
+                    "effectiveDate": "${effectiveDate}",
+                    "nextFundHoliday": ${holidayNextMonth},
+                    "estimatedRemainingAmount": ${estimatedRemainingAmount},
+                    "estimatedRemainingUnit": ${estimatedRemainingUnit},
+                    "isFirstSubscription": false,
+                    "isRequiredAccreditedInvestorRiskConsent": false,
+                    "isRequiredComplexFundConsent": false,
+                    "isRequiredConcentrationRiskConsent": false,
+                    "isRequiredExchangeRateConsent": true,
+                    "isRequiredForeignRiskConsent": true,
+                    "isRequiredOverRiskConsent": true,
+                    "isRequiredTaxDeductibleConsent": true
+                },
+                "mutualFundDetail": ${mutualFundDetail},
+                "appId": "${APP_ID}",
+                "paymentInfo": {
+                    "cardNo": null,
+                    "merchantID": null
+                },
+                "transactionType": "SUBSCRIPTION",
+                "referCode": "${User_ID}",
+                "referBranchCode": "${branchCode}",
+                "amount": ${minFirstSubAmount},
+                "paymentMethod": "ATS",
+                "unitHolderId": "${unitholderId}",
+                "paymentAccountNumber": "${ACCOUNT_NO}",
+                "passbookBalance": 0,
+                "passbookSerialNumber": "1",
+                "signatureConsent": true,
+                "taxFundConsent": true,
+                "validateTradeAndFundHolidayResult": {
+                    "isCutOfTime": true
+                }
+            }
+        ]
+    },
+    "customerAcceptConsent": true,
+    "documentInfo": {
+        "documents": [
+            {
+                "appId": "${APP_ID}",
+                "documentId": "AUTH_SIGNATURE",
+                "uploadSessionId": "${Auth_uploadSessionId}",
+                "signerName": "${MOCK_ThaiTitle} ${MOCK_ThaiFirstName} ${MOCK_ThaiLastName}"
+            },
+            {
+                "documentId": "PHOTO",
+                "uploadSessionId": "${Photo_uploadSessionId}"
+            }
+        ]
+    },
+    "opportunityLogRefNo": "${opportunityLogRefNo}-1",
+    "additionalInfo": ${additionalInfo},
+    "flow": "mfoa",
+    "subFlow": "",
+    "needPrintedDocument": false,
+    "sendCusEmailDocument": false,
+    "portfolioInfo": {
+        "mortgageRetentions": ${RETENTION},
+        "fnaInfo": null
+    },
+    "vcInfo": ${vcInfo}
+}

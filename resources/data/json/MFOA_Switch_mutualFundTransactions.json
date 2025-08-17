@@ -1,0 +1,37 @@
+[
+    {
+        "accountId": "${Fund_account}",
+        "unitHolderId": "${unitholderId}",
+        "switchOutFundDetail": ${mutualFundDetail},
+        "productCode": "${fundCode}",
+        "appId": "${APP_ID}",
+        "transactionDetail": {
+            "estimatedRemainingAmount": ${estimatedRemainingAmount},
+            "estimatedRemainingUnit": ${estimatedRemainingUnit},
+            "switchOutUnitholderId": "${unitholderId}",
+            "allotmentDate": "${allotmentDate}",
+            "effectiveDate": "${effectiveDate}",
+            "switchOutFundHoliday": ${holidayThisMonth},
+            "switchOutFundTradeCalendar": ${trade_calendar},
+            "isFirstSubscription": false,
+            "fundHoliday": ${SwitchIn_holidayThisMonth},
+            "isRequiredAccreditedInvestorRiskConsent": false,
+            "isRequiredComplexFundConsent": false,
+            "isRequiredConcentrationRiskConsent": false,
+            "isRequiredExchangeRateConsent": true,
+            "isRequiredForeignRiskConsent": true,
+            "isRequiredOverRiskConsent": true,
+            "isRequiredTaxDeductibleConsent": false,
+            "fundTradeCalendar": ${SwitchIn_trade_calendar}
+        },
+        "transactionType": "SWITCH",
+        "referCode": "${User_ID}",
+        "referBranchCode": "200008",
+        "receivingAccountNumber": "${ACCOUNT_NO}",
+        "paymentMethod": "ATS",
+        "mutualFundDetail": ${SwitchIn_mutualFundDetail},
+        "switchOption": "AMOUNT",
+        "unit": null,
+        "amount": "1000"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "cardInfo": {
+        "address": ${MOCK_Address},
+        "bp1No": "JT0000000000",
+        "cardExpiryDate": "${MOCK_CardExpiryDate}",
+        "cardIssueDate": "${MOCK_CardIssueDate}",
+        "cardIssuePlace": "${MOCK_CardIssuePlace}",
+        "cardNumber": "${MOCK_CardNumber}",
+        "cardType": "Citizen ID",
+        "chipId": "${MOCK_ChipId}",
+        "customerType": "221",
+        "dateOfBirth": "${MOCK_DateOfBirth}",
+        "engFirstName": "${MOCK_EngFirstName}",
+        "engLastName": "${MOCK_EengLastName}",
+        "engMiddleName": "",
+        "engTitle": "${MOCK_EngTitle}",
+        "foreigner": false,
+        "manualKeyIn": false,
+        "sex": "M",
+        "thaiFirstName": "${MOCK_ThaiFirstName}",
+        "thaiLastName": "${MOCK_ThaiLastName}",
+        "thaiMiddleName": "",
+        "thaiTitle": "${MOCK_ThaiTitle}"
+    },
+    "channel": "android",
+    "flow": "pmb",
+    "sellerInfo": {
+        "firstName": "${FirstNameEmployee}",
+        "lastName": "${LastNameEmployee}",
+        "position": "${POSITION}",
+        "userGroup": "${RoleClassCode}",
+        "licenses": ${LICENSES}
+    },
+    "subFlow": "",
+    "data": {},
+    "draftedCaseId": "",
+    "customerTrackingId": "",
+    "mortgageRetentionParentCaseId": null,
+    "skipIntroduction": false,
+    "mcToolRefNo": "${MC_TOOL_REFNO}",
+    "opportunityLogRefNo": "${OPPORTUNITY_LOG_REFNO}",
+    "selectedProductInfos": [
+        {
+            "productId": "${ProductID}",
+            "productCode": "${ProductCode}",
+            "productTypeCode": "${ProductTypeCode}",
+            "data": ${data_for_retrieve}
+        }
+    ],
+    "vulnerableCustomerDetail": {
+        "customerLimitation": {
+            "isRequiredAssistance": false,
+            "vcLimitationTypes": []
+        },
+        "vcSelectedProducts": [
+            "${ProductID}"
+        ]
+    }
+}

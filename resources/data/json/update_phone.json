@@ -1,0 +1,153 @@
+{
+  "caseId": "${CASE_ID}",
+  "selectedLanguage": "th",
+  "customerInfo": {
+    "personalInfos": [
+      {
+        "cardInfo": {
+                    "address": {
+                        "homeNo": "${MOCK_Address_HomeNo}",
+                        "soi": "${MOCK_Address_Soi}",
+                        "trok": "",
+                        "moo": "",
+                        "road": "${MOCK_Address_Road}",
+                        "subDistrict": "${MOCK_Address_SubDistrict}",
+                        "district": "${MOCK_Address_District}",
+                        "province": "กรุงเทพมหานคร",
+                        "postalCode": "10200"
+                    },
+                    "bp1No": "JT0000000000",
+                    "cardNumber": "${MOCK_CardNumber}",
+                    "cardExpiryDate": "${MOCK_CardExpiryDate}",
+                    "cardIssueDate": "${MOCK_CardIssueDate}",
+                    "cardIssuePlace": "${MOCK_CardIssuePlace}",
+                    "cardType": "Citizen ID",
+                    "chipId": "chipId1",
+                    "customerType": "221",
+                    "dateOfBirth": "${MOCK_DateOfBirth}",
+                    "engFirstName": "Test",
+                    "engLastName": "Automate",
+                    "engMiddleName": "",
+                    "engTitle": "MR",
+                    "foreigner": false,
+                    "manualKeyIn": false,
+                    "sex": "M",
+                    "thaiFirstName": "เทส",
+                    "thaiLastName": "ออโต้เมท",
+                    "thaiMiddleName": "",
+                    "thaiTitle": "นาย"
+                },
+        "cifForm": {
+          "cbsInfo": ${cbsInfo},
+          "customerConsent": {
+            "referenceId": "${MOCK_CardNumber}",
+            "referenceIdType": "CN",
+            "issuingCountry": "TH",
+            "cifNumber": "${CUSTOMER_CIF}",
+            "consents": [
+              {
+                "consentId": "100101",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              },
+              {
+                "consentId": "100102",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              },
+              {
+                "consentId": "100103",
+                "consentVersionMajor": 2,
+                "consentVersionMinor": 0,
+                "consentAnsDateTime": "2025-07-21T16:56:59+07:00",
+                "consentProviders": [],
+                "questions": [
+                  {
+                    "questionId": 1,
+                    "answerLanguage": "TH",
+                    "answerCode": "N"
+                  }
+                ]
+              }
+            ]
+          },
+          "facialConsent": "N",
+          "fatcaInfo": null,
+          "cbsInfoChanges": [
+            {
+                "field": "mobilePhone",
+                "newValue": "${OTP_Tel}",
+                "oldValue": "${OLD_MOBILE_PHONE}"
+            },
+            {
+                "field": "emailAddr",
+                "newValue": "${Email}",
+                "oldValue": "${OLD_EMAIL}"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "productInfo": {
+    "travelCards": [],
+    "debitCards": [],
+    "deposits": [],
+    "cardMaintenances": [],
+    "promptpayMaintenance": [],
+    "tempCards": [],
+    "promptpayGroups": null,
+    "emoneys": [],
+    "accountMaintenances": [],
+    "mutualFundAccount": null,
+    "pmbTransactions": [],
+    "hnwDeclaration": null,
+    "insuranceTransactions": [],
+    "newNext": null,
+    "upLift": null,
+    "statementRequests": []
+  },
+  "customerAcceptConsent": false,
+  "documentInfo": {
+    "documents": [
+        {
+            "documentId": "PHOTO",
+            "uploadSessionId": "${Photo_uploadSessionId}"
+        }
+    ]
+  },
+  "opportunityLogRefNo": "${opportunityLogRefNo}",
+  "additionalInfo": {
+    "sellerFirstName": "กรุงไทย_UAT_22679",
+    "sellerLastName": "รักชุมชน_UAT_22679",
+    "sellerPosition": "ผู้จัดการ Financial Planner",
+    "sellerId": "${User_ID}"
+  },
+  "flow": "${flow}",
+  "subFlow": "",
+  "needPrintedDocument": false,
+  "sendCusEmailDocument": false,
+  "portfolioInfo": {
+    "mortgageRetentions": ${RETENTION},
+    "fnaInfo": null
+  },
+  "vcInfo": ${vcInfo}
+}

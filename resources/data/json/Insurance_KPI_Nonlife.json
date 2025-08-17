@@ -1,0 +1,166 @@
+{
+    "caseId": "${CASE_ID}",
+    "selectedLanguage": "th",
+    "customerInfo": {
+        "personalInfos": [
+            {
+                "cardInfo": ${CARD_INFO},
+                "cifForm": {
+                    "cbsInfo": ${CBS_INFO},
+                    "customerConsent": ${CUSTOMER_CONSENT},
+                    "facialConsent": "N",
+                    "fatcaInfo": null,
+                    "cbsInfoChanges": [
+                        {
+                            "field": "mobilePhone",
+                            "newValue": "${OTP_Tel}",
+                            "oldValue": "${OLD_MOBILE_PHONE}"
+                        },
+                        {
+                            "field": "emailAddr",
+                            "newValue": "${Email}",
+                            "oldValue": "${OLD_EMAIL}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "productInfo": {
+        "travelCards": [],
+        "debitCards": [],
+        "deposits": [],
+        "cardMaintenances": [],
+        "promptpayMaintenance": [],
+        "tempCards": [],
+        "promptpayGroups": null,
+        "emoneys": [],
+        "accountMaintenances": [],
+        "mutualFundAccount": null,
+        "insuranceTransactions": [
+            {
+                "productId": "${VC_SELECT_PRODUCT}",
+                "productCode": "${PLAN_CODE}",
+                "productName": "ประกัน PA สุขใจชัวร์",
+                "productTypeId": "NL-1",
+                "productTypeCode": "NL",
+                "productBusinessCode": "${PLAN_CODE}",
+                "subCategoryCode": "NLPANL",
+                "appId": "${APP_ID}",
+                "detailedSaleSheetLink": "b26c2df9-bfc3-4f4c-ad88-4ddbf8263cf7",
+                "companyId": "${COMPANY_ID}",
+                "companyName": "${Company_Name}",
+                "refererName": "${FirstNameEmployee} ${LastNameEmployee}",
+                "refererBranchCode": "${OLD_KCS_BRANCH_CODE}",
+                "planName": "${PLAN_DESC}",
+                "selectedBranch": "${KCS_BRANCH_CODE}",
+                "loanApplication": null,
+                "planId": "${PLAN_ID}",
+                "planCode": "${PLAN_CODE}",
+                "refererId": "${User_ID}",
+                "customerAddrVerified": true,
+                "insurancePremium": ${INSURANCE_PREMIUM},
+                "amt": ${INSURANCE_PREMIUM},
+                "appFormUploadSessionId": "${APP_FORM_UPLOAD_SESSION_ID}",
+                "ddrRegistration": ${DDR_Registration},
+                "billPaymentInfo": {
+                    "ref1": "${APPLICATION_NO}",
+                    "acctNo": "${ACCOUNT_NO}",
+                    "transactionId": "${APP_ID}-1"
+                },
+                "ktcPaymentInfo": null,
+                "qrPaymentInfo": null,
+                "transferAcctNo": null,
+                "paymentMethod": "TRANSFER"
+            }
+        ],
+        "newNext": null,
+        "upLift": null,
+        "statementRequests": []
+    },
+    "customerAcceptConsent": true,
+    "documentInfo": {
+        "documents": [
+            {
+                "documentId": "PHOTO",
+                "uploadSessionId": "${PHOTO_UPLOAD_SESSION_ID}"
+            }
+        ]
+    },
+    "opportunityLogRefNo": "${OPPORTUNITY_LOG_REFNO}",
+    "additionalInfo": ${ADD_INFO},
+    "flow": "insurance",
+    "subFlow": "",
+    "needPrintedDocument": false,
+    "sendCusEmailDocument": true,
+    "portfolioInfo": {
+        "mortgageRetentions": ${RETENTION},
+        "fnaInfo": {
+            "fnaAnswers": [
+                {
+                    "question": "1",
+                    "answers": [
+                        "3"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "2",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "3",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "4",
+                    "answers": [
+                        "2"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "5",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "6",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "7",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "8",
+                    "answers": [],
+                    "answerTexts": {}
+                },
+                {
+                    "question": "9",
+                    "answers": [
+                        "1"
+                    ],
+                    "answerTexts": {}
+                }
+            ],
+            "updatedDateTime": "2025-04-25T09:08:59+07:00"
+        }
+    },
+    "vcInfo": ${VC_INFO}
+}
