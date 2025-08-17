@@ -1,0 +1,14 @@
+PyYAML
+openpyxl
+requests
+robotframework==7.1.1
+robotframework-excellib
+robotframework-jsonlibrary
+robotframework-requests
+robotframework-seleniumlibrary
+robotframework-appiumlibrary
+selenium
+rpaframework
+PyPDF2
+robotframework-excellib
+opencv-contrib-python

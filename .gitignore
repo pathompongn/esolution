@@ -1,0 +1,12 @@
+*backup*
+*results*
+
+
+*.html
+*.xml
+*.pyc
+playwright-log.txt
+*.webm
+output/*
+browser/*
+resources/data/UAT/~$*.xlsx
